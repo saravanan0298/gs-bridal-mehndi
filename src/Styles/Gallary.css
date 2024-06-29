@@ -1,0 +1,107 @@
+.gallary-Container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    height: 100vh;
+    padding: 50px;
+    background-color:#FFF5E0;
+}
+
+.first-grid-hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.first-grid-hover:hover{
+    transform: scale(1.1);
+    background-image: url("../Images/Gallary/gallaryImg1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.first-grid-hover > div{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    height: 70%;
+    width: 70%;
+}
+
+.first-grid{
+    background-image: url("../Images/Gallary/gallaryImg2.jpg");
+}
+
+.second-grid{
+    background-image: url("../Images/Gallary/gallaryImg3.png");
+}
+
+.third-grid{
+    background-image: url("../Images/Gallary/gallaryImg4.png");
+}
+
+.forth-grid{
+    background-image: url("../Images/Gallary/gallaryImg5.png");
+}
+.fifth-grid{
+    background-image: url("../Images/Gallary/gallaryImg6.png");
+}
+
+.sixth-grid{
+    background-image: url("../Images/Gallary/gallaryImg7.png");
+
+}
+
+@media screen and (max-width : 981px) {
+    .gallary-Container{
+        grid-template-columns: auto auto;
+        height: 200vh;
+        gap: 5px;
+        padding: 30px;
+    }
+}
+@media screen and (max-width : 706px) {
+    .gallary-Container{
+        grid-template-columns: auto;
+        height: 300vh;
+    }
+}
+
+
+@media screen and (max-width :1080px) and (min-height: 2340px){
+    .gallary-Container{
+        grid-template-columns: auto;
+        height: 200vh;
+    }
+
+}
+
+@media screen and (max-width :1440px) and (min-height: 3200px){
+    .gallary-Container{
+        grid-template-columns: auto;
+        height: 200vh;
+    }
+}
+@media screen and (max-width :1600px) and (min-height: 2560px){
+    .gallary-Container{
+        grid-template-columns: auto;
+        height: 200vh;
+    }
+}
+@media screen and (max-width :2048px) and (min-height: 2732px){
+    .gallary-Container{
+        grid-template-columns: auto;
+        height: 200vh;
+    }
+}
+@media screen and (max-width :1242px) and (min-height: 2688px){
+    .gallary-Container{
+        grid-template-columns: auto;
+        height: 200vh;
+    }
+}

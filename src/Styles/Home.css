@@ -1,0 +1,151 @@
+.home-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../Images/Home/firstPageImg1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-family: "Great Vibes", cursive;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 8vh;
+    margin-bottom: 0%;
+    color: #44605A;
+    animation-name: text;
+    animation-duration: 4s;
+    animation: text 3s;
+    animation-iteration-count: 1;
+    letter-spacing: 5px;
+
+}
+
+@keyframes text {
+    30% {
+      letter-spacing: 25px;
+    }
+    85% {
+      letter-spacing: 10px;
+    }
+    100% {
+        letter-spacing: 8px;
+    }
+  }
+
+h4{
+    text-align: right;
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 4vh;
+    margin-top: 0%;
+    color: #FF9800;
+}
+
+@media screen and (max-width : 850px) {
+    h1{
+        font-size: 7vh;
+    }
+    h4{
+        font-size: 3vh;
+    }
+}
+@media screen and (max-width : 794px) {
+    h1{
+        font-size: 6vh;
+    }
+    h4{
+        font-size: 2vh;
+    }
+}
+@media screen and (max-width : 738px) {
+    .home-Container{
+        height: 50vh;
+    }
+    h1{
+        font-size: 4vh;
+    }
+    h4{
+        font-size: 2vh;
+    }
+}
+@media screen and (max-width : 626px) {
+    h1{
+        font-size: 4vh;
+        animation-play-state: paused;
+    }
+    h4{
+        font-size: 15px; 
+    }
+}
+@media screen and (max-width : 317px) {
+    h1{
+        font-size: 3vh;
+        animation-play-state: paused;
+    }
+    h4{
+        font-size: 10px; 
+    }
+}
+@media screen and (max-width : 259px) {
+    h1{
+        font-size: 2vh;
+        animation-play-state: paused;
+    }
+    h4{
+        font-size: 10px; 
+    }
+}
+@media screen and (max-width : 606px) {
+    .home-Container{
+        background-image: url("../Images/Home/firstPageImg2.png");
+    }
+}
+
+
+@media screen and (max-width :1440px) and (min-height: 3200px) {
+    .home-Container{
+        height: 50vh;
+    }
+    .home-Container{
+        background-image: url("../Images/Home/firstPageImg2.png");
+    }
+    h1{
+        font-size: 3vh;
+    }
+    h4{
+        font-size: 2vh;
+    }
+}
+@media screen and (max-width :1080px) and (min-height: 2340px) {
+    .home-Container{
+        height: 50vh;
+    }
+    .home-Container{
+        background-image: url("../Images/Home/firstPageImg2.png");
+    }
+    h1{
+        font-size: 3vh;
+    }
+    h4{
+        font-size: 2vh;
+    }
+}
+@media screen and (max-width :1600px) and (min-height: 2560px) {
+    .home-Container{
+        height: 50vh;
+    }
+    .home-Container{
+        background-image: url("../Images/Home/firstPageImg2.png");
+    }
+    h1{
+        font-size: 3vh;
+    }
+    h4{
+        font-size: 2vh;
+    }
+}

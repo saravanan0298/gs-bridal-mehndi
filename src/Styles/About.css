@@ -1,0 +1,128 @@
+.about-Container{
+    background-color: #002B5B;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Images/About/aboutImg2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about-us{
+    color: #EDBF6D;
+    width: 50%;
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 3vh;
+}
+.about-us > p{
+    text-align: justify;
+}
+.about-us > h2{
+    text-align: center;
+    border-bottom: 20px solid transparent;
+    border-image: url('../Images/About/aboutImg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-image-slice: 0 0 30 0;
+    background-position: center;
+}
+
+.about-us > h2{
+    text-align: center;
+    animation-name: text;
+    animation-duration: 4s;
+    animation: text 3s;
+    animation-iteration-count: 1;
+}
+@keyframes text {
+
+    30% {
+      letter-spacing: 25px;
+    }
+    85% {
+      letter-spacing: 8px;
+    }
+    100% {
+      margin-bottom: 20px;
+    }
+  }
+
+@media screen and (max-width : 821px) {
+    .about-us{
+      font-size: 3vh;
+      width: 50%;
+    }
+}
+@media screen and (max-width : 763px) {
+    .about-us{
+      font-size: 2.5vh;
+      width: 60%;
+    }
+}
+
+@media screen and (max-width : 738px) {
+  .about-Container{
+    height: 50vh;
+  }
+  .about-us{
+    font-size: 2vh;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width : 567px) {
+  .about-us{
+    font-size: 2vh;
+    width: 80%;
+  }
+  .about-us > h2{
+    animation-play-state: paused;
+  }
+}
+@media screen and (max-width : 431px) {
+  .about-us{
+    font-size: 1.5vh;
+  }
+}
+@media screen and (max-width : 230px) {
+  .about-us{
+    font-size: 1vh;
+    width: 80%;
+
+  }
+}
+
+@media screen and (max-width :1080px) and (min-height: 2340px){
+  .about-us{
+    font-size: 50px;
+    width: 80%;
+  }
+}
+@media screen and (max-width :1440px) and (min-height: 3200px){
+  .about-Container{
+    height: 50vh;
+  }
+  .about-us{
+    font-size: 50px;
+    width: 80%;
+  }
+}
+@media screen and (max-width :1600px) and (min-height: 2560px){
+  .about-Container{
+    height: 50vh;
+  }
+  .about-us{
+    font-size: 50px;
+    width: 80%;
+  }
+}
+@media screen and (max-width :2048px) and (min-height: 2732px){
+  .about-us{
+    font-size: 50px;
+    width: 80%;
+  }
+}
